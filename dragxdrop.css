@@ -1,0 +1,72 @@
+#bins, #fruits {
+  height: 200px;
+  width: 1500px;
+  border: 1px hidden black;
+}
+
+.bin, .small-square {
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.bin {
+  height: 100px;
+  width: 100px;
+  opacity : 0.4;
+  border: 2px solid black;
+}
+
+.small-square {
+  height: 90px;
+  width: 90px
+}
+
+.yeah {
+  border: 2px solid red;
+}
+
+.Pomme {
+	background-image : url(pomme.jpg);
+	background-size : contain;
+}
+
+.Poire {
+	background-image : url(poire.jpg);
+	background-size : contain;
+}
+
+.Banane {
+	background-image: url(banane.jpg);
+	background-size : contain;
+}
+
+.Fraise {
+	background-image: url(fraise.jpg);
+	background-size : contain;
+}
+
+.Chien {
+	background-image: url(chien.jpg);
+	background-size : cover;
+}
+
+.Chat {
+	background-image: url(chat.jpg);
+	background-size : cover;
+}
+
+.Vache {
+	background-image: url(vache.jpg);
+	background-size : cover;
+}
+
+.Guitare {
+	background-image: url(ukulele.jpg);
+	background-size : contain;
+}
+
+.Voiture {
+	background-image: url(voiture.jpg);
+	background-size : cover;
+}
